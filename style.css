@@ -47,3 +47,16 @@ a {
     
 }
 
+.image-container {
+    margin-top: 89px;
+    height: 233px;
+}
+
+.logo {
+    width: 272px;
+    height: 92px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 8rem;
+} 
+
