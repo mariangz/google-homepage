@@ -22,7 +22,7 @@ body {
 }
 
 .links-container {
-    padding: 1.5rem 1.8rem;
+    padding: 1.3rem 1.8rem;
     display: flex;
     align-items: center;
 }
@@ -43,14 +43,13 @@ a {
     list-style: none;
     display: inline-block;
     font-size: 13px;
-    padding-right: 15px;
+    margin-right: 15px;
     
 }
 
 .image-container {
     margin-top: 89px;
     margin-bottom: 1.7rem;
-    /* height: 233px; */
 }
 
 .logo {
@@ -64,8 +63,9 @@ a {
 .btn {
     font-weight: bold;
     background-color: #4285f4;
-    padding: .5rem;
+    padding: .5rem 1rem;
     color: #fff;
+    border-radius: .2rem;
 }
 
 .btn a {
@@ -93,9 +93,9 @@ a {
 
 
 .search-img {
-    width: 1rem;
-    height: 1rem;
-    margin: 0 .9rem;
+    width: 20px;
+    height: 20px;
+    margin: .9rem;
 }
 
 .microphone-img {
@@ -125,4 +125,18 @@ input {
     outline: none;
     border: none;
     padding: 0 .5rem;
+}
+
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    font-size: 14px;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #5f6368;
+}
+
+.footer {
+    padding: 1rem;
 }
