@@ -8,17 +8,42 @@
 
 body {
     font-family: arial, sans-serif;
+    color: rgba(0, 0, 0, 0,87);
+}
+
+.header-container {
+    min-height: 65px;
 }
 
 .nav__links {
-    list-style: none;
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
+
+.links-container {
+    padding: 1.5rem 1.8rem;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav__links img {
+    width: 30px;
+    height: 30px;
+}
+
 
 
 .nav__links li {
     list-style: none;
     display: inline-block;
+    font-size: 13px;
+    padding-right: 15px;
+    
 }
 
