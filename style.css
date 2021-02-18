@@ -49,7 +49,8 @@ a {
 
 .image-container {
     margin-top: 89px;
-    height: 233px;
+    margin-bottom: 1.7rem;
+    /* height: 233px; */
 }
 
 .logo {
@@ -60,3 +61,54 @@ a {
     margin-top: 8rem;
 } 
 
+.btn {
+    font-weight: bold;
+    background-color: #4285f4;
+    padding: .5rem;
+    color: #fff;
+}
+
+.btn a {
+    text-align: center;
+}
+
+.text-container {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+}
+
+.search-img {
+    width: 20px;
+    height: 20px;
+    margin: 0 .9rem;
+}
+
+.microphone-img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.search-container {
+    margin: 0 auto;
+    display: block;
+    width: 584px;
+    height: 46px;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+
+.input-container {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    height: 34px;
+    outline: none;
+    border: none;
+    padding: 0 .5rem;
+}
