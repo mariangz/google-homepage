@@ -2,13 +2,23 @@
 ::after,
 ::before {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: arial, sans-serif;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
+.nav__links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
+
+
+.nav__links li {
+    list-style: none;
+    display: inline-block;
+}
+
