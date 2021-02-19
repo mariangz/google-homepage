@@ -9,16 +9,19 @@
 body {
     font-family: arial, sans-serif;
     color: rgba(0, 0, 0, 0,87);
+    font-size: 13px;
 }
 
 .header-container {
     min-height: 65px;
 }
 
-.nav__links {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
+.btn {
+    color: #fff;
+    background-color: #1a73e8;
+    padding: .7rem 1.1rem;
+    font-weight: 500;
+    border-radius: 4px;
 }
 
 .links-container {
@@ -30,14 +33,14 @@ body {
 a {
     color: inherit;
     text-decoration: none;
-}
-
-.nav__links img {
-    width: 30px;
-    height: 30px;
+    cursor: pointer;
 }
 
 
+.icon {
+    width: 3.5rem;
+    height: 3.5rem;
+}
 
 .nav__links li {
     list-style: none;
@@ -60,18 +63,6 @@ a {
     margin-top: 8rem;
 } 
 
-.btn {
-    font-weight: bold;
-    background-color: #4285f4;
-    padding: .5rem 1rem;
-    color: #fff;
-    border-radius: .2rem;
-}
-
-.btn a {
-    text-align: center;
-}
-
 .text-container {
     display: flex;
     justify-content: center;
@@ -84,7 +75,7 @@ a {
     text-decoration: none;
     background-color: #f2f2f2;
     border: none;
-    padding: .7rem 1rem;
+    padding: .5rem 1.2rem;
     border-radius: 4px;
     margin-left: .8rem;
     color: #5F6368;
@@ -95,18 +86,17 @@ a {
 .search-img {
     width: 20px;
     height: 20px;
-    margin: .9rem;
 }
 
 .microphone-img {
-    width: 3rem;
-    height: 3rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .search-container {
     margin: 0 auto;
     display: block;
-    width: 584px;
+    width: 35rem;
     height: 46px;
     display: flex;
     border: 1px solid #dfe1e5;
@@ -115,28 +105,36 @@ a {
     border-radius: 1.5rem;
 }
 
+.icon-search {
+    padding: .9rem;
+}
+
 .input-container {
     width: 100%;
 }
 
 input {
     width: 100%;
-    height: 34px;
     outline: none;
     border: none;
     padding: 0 .5rem;
 }
 
-.footer-container {
+.footer-navbar {
     position: fixed;
     bottom: 0;
     font-size: 14px;
-    justify-content: space-between;
     width: 100%;
     background-color: #f2f2f2;
-    color: #5f6368;
+    color: rgb(100, 100, 100, 0.80);
+    border-top: 1px solid rgb(100, 100, 100, 0.20);
 }
-
-.footer {
-    padding: 1rem;
-}
+/* 
+@media only screen and (max-width: 800px) {
+    .footer-navbar {
+      justify-content: space-evenly;
+    }
+    .ml-auto {
+        margin-left: 0;
+    }
+  } */
