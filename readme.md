@@ -8,4 +8,4 @@ A simple representation the google's homepage. I experimented with tachyons for 
 + CSS
     * Tachyons
 
-[Live] (https://mariangz.github.io/google-homepage/)
+[Live](https://mariangz.github.io/google-homepage/)
