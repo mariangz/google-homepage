@@ -81,7 +81,7 @@ a {
 }
 
 .btn-container {
-    width: 40%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -113,4 +113,28 @@ a {
     background-color: #f2f2f2;
     color: rgb(100, 100, 100, 0.80);
     border-top: 1px solid rgb(100, 100, 100, 0.20);
+}
+
+@media screen and (max-width: 700px) {
+    .about,
+    .store {
+        display: none;
+    }
+
+    .search-container {
+        margin: 0 1rem;
+    }
+
+    .footer-navbar {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-navbar__link {
+        margin: 0;
+    }
+
+    .search-container__microphone {
+        display: none;
+    }
 }
