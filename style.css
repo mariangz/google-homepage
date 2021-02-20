@@ -125,6 +125,10 @@ a {
         margin: 0 1rem;
     }
 
+    .btn-text {
+        display: none;
+    }
+
     .footer-navbar {
         justify-content: center;
         flex-wrap: wrap;
